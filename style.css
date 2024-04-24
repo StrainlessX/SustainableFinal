@@ -1,6 +1,13 @@
 
+@font-face {
+    font-family: "Handjet";
+    src: url("Handjet/Handjet-VariableFont_ELGR,ELSH,wght.ttf")
+
+}
+
 body {
 background-color: rgb(0, 0, 0);
+font-family: "Handjet";
 }
 
 #whiteBKG {
@@ -22,6 +29,36 @@ a:hover {
     text-align: right;
 }
 
+.img-right {
+    max-width: 50vw; 
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: 0; 
+}
+
+.img-mid {
+    max-width: 50vw; 
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.full-width-image {
+    max-width: 90vw; 
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
 .text-center {
+    width: calc(100% / 3); /* 宽度为网页宽度的1/3 */
+    margin: 0 auto; /* 居中 */
+}
+
+.line-center {
     text-align: center;
 }
+
